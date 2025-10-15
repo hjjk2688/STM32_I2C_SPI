@@ -6,13 +6,22 @@
 <img width="600" height="400" alt="K24C256" src="https://github.com/user-attachments/assets/19e7704c-dd37-47b5-a35d-39d4bba37158" />
 <br>
 
-<img width="800" height="600" alt="I2C_EEPROM_003" src="https://github.com/user-attachments/assets/6f12cb52-ecb1-41d0-a5b5-b02cc4c5c4db" />
+<img width="686" height="586" alt="EEPROM" src="https://github.com/user-attachments/assets/67ba34c3-810c-4f70-923c-720189f2acfc" />
+
 <br>
 <img width="800" height="600" alt="I2C_EEPROM_001" src="https://github.com/user-attachments/assets/e78b6b0c-52c2-41e7-b09c-bbc37888d74e" />
 <br>
 <img width="800" height="600" alt="I2C_EEPROM_002" src="https://github.com/user-attachments/assets/b1e7079c-ea43-445a-801f-d66b4933c423" />
 <br>
 
+
+## I2C address
+Device addr
+	- I2C 버스라는 하나의 통신선에 여러 개의 장치(칩)가 연결되어 있을 때, 그중 어떤 칩과 통신할지 지정하는 고유한 주소
+Memory addr 
+	- 칩 내부의 여러 저장 공간(레지스터 또는 메모리) 중 어느 위치에 데이터를 쓰거나 읽을지를 지정하는 주소
+
+--------------------------------------------------------------------
 ```c
 /* USER CODE BEGIN Includes */
 #include <stdio.h>
